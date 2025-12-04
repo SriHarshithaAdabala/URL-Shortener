@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>URL Shortener — Local</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app-header">
+        <h1>Shortly</h1>
+        <div class="header-controls">
+          <label class="theme-switch">
+            <input type="checkbox" id="themeToggle" />
+            <span class="slider"></span>
+          </label>
+          <button id="clearAllBtn" class="ghost">Clear All</button>
+        </div>
+      </header>
+
+      <main class="card">
+        <div class="form-row">
+          <input
+            id="longUrl"
+            type="text"
+            placeholder="Paste long URL here (https://...)"
+            autocomplete="off"
+          />
+          <button id="shortenBtn" class="primary">
+            <span class="shine"></span>
+            Shorten
+          </button>
+        </div>
+
+        <div id="result" class="result" aria-live="polite"></div>
+
+        <section class="links-section">
+          <h2>Saved Links</h2>
+          <div id="linksList" class="links-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Toasts -->
+    <div id="toastContainer" class="toast-container" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
