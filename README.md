@@ -1,4 +1,4 @@
-URL Shortener – Frontend Web App
+***URL Shortener – Frontend Web App***
 
 This is a simple and fast URL Shortening Web Application built entirely using frontend technologies.
 It converts long URLs into short, shareable links and stores all data inside the browser using LocalStorage, so no backend is required.
@@ -6,10 +6,10 @@ It converts long URLs into short, shareable links and stores all data inside the
 **Tech Stack Used**
 
 HTML5 – Structure
-CSS3 – UI Styling (Glassmorphism + Responsive Layout)
-JavaScript (ES6) – App Logic, Short ID Generator
-LocalStorage – Saving URL mappings
-QRCode.js – Generating QR codes for each short link
+- CSS3 – UI Styling (Glassmorphism + Responsive Layout)
+- JavaScript (ES6) – App Logic, Short ID Generator
+- LocalStorage – Saving URL mappings
+- QRCode.js – Generating QR codes for each short link
 
 ⭐ Main Features ⭐
 
