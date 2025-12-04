@@ -19,7 +19,6 @@ It converts long URLs into short, shareable links and stores all data inside the
 - Delete individual links
 - “Clear All” option to remove all saved URLs
 - Auto-generated QR Code for each short link
-- Dark/Light mode toggle (saved in LocalStorage)
 - Smooth animations + UI transitions
 - Toast notifications (instead of alerts)
 - Auto-clear input box + remembers your last input
